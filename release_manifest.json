@@ -1,7 +1,7 @@
 {
   "schema": "algorithmic-hysteresis-release-manifest/v1",
   "release": "v1.0.0",
-  "generated_utc": "2026-08-27T01:35:51+00:00",
+  "generated_utc": "2026-08-27T02:02:21+00:00",
   "hash_algorithm": "SHA-256",
   "files": [
     {
@@ -17,7 +17,7 @@
     {
       "path": "CITATION.cff",
       "bytes": 690,
-      "sha256": "e1fbac209f1d30882243316bac7122a63cf240118fe6f9bb00f4a74846d1e449"
+      "sha256": "a92fd08aa8f63257fd85f811258638fca1c4eba97b640062b25df0ce88e4f7bd"
     },
     {
       "path": "code/adaptive_network.py",
@@ -316,8 +316,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8120,
-      "sha256": "c82f7853994e24b60a4def61267a26e30877100717c95203cef8cd4158fa5efb"
+      "bytes": 7479,
+      "sha256": "a09696680e00fd1ca0934a8db29f94db8cebfbc49204f96fc9ae442acbd0f6e8"
     },
     {
       "path": "requirements.txt",
@@ -343,66 +343,6 @@
       "path": "results/summary.json",
       "bytes": 2826,
       "sha256": "63afe757420008e82d3915d6fa5d7a4f886818a27829a7e17e4c2edccc7240dd"
-    },
-    {
-      "path": "submission-jcn/Fig1.pdf",
-      "bytes": 42707,
-      "sha256": "59a91542a947dbfafd2f75f06caef54f08bcf9c651408f0798728f7c061df7ff"
-    },
-    {
-      "path": "submission-jcn/Fig2.pdf",
-      "bytes": 43391,
-      "sha256": "db979edb1a88ef5e01c2dd7aaedcb859df1db5071c096d9c7e4587a94de6df97"
-    },
-    {
-      "path": "submission-jcn/Fig3.pdf",
-      "bytes": 44666,
-      "sha256": "199559d11c51de40d2dd048903a701d5d4dfce93f20aa8531d9679d309cd45d3"
-    },
-    {
-      "path": "submission-jcn/Fig4.pdf",
-      "bytes": 44182,
-      "sha256": "e6c70bfac4a8eb12174f35a8ebe9600b13376a7e550e64feb95e616cea03e486"
-    },
-    {
-      "path": "submission-jcn/Fig5.pdf",
-      "bytes": 44150,
-      "sha256": "14c15cb3b72750a6ab413c4399159a1b1edb471cf56f3e1e6a37e0c03e767b8f"
-    },
-    {
-      "path": "submission-jcn/Fig6.pdf",
-      "bytes": 134318,
-      "sha256": "a48fa2c50f1ca0b9bdf3dee99efe2ab71035cf95c3ecea6109109c3a4c0fcef9"
-    },
-    {
-      "path": "submission-jcn/Fig7.pdf",
-      "bytes": 43946,
-      "sha256": "0fccfc88efc65977cad33a76cf778a871b508095ab89ea38ffd78570884871fa"
-    },
-    {
-      "path": "submission-jcn/Fig8.pdf",
-      "bytes": 43175,
-      "sha256": "b98c51413eb700ac302ae62194d13b41687c83e11102ee71d8dea8b6c2f95966"
-    },
-    {
-      "path": "submission-jcn/Fig9.pdf",
-      "bytes": 46385,
-      "sha256": "31830c12d29aaaa85b8529ef0c570b72d10fde094a459020322076c67155e15f"
-    },
-    {
-      "path": "submission-jcn/references.bib",
-      "bytes": 46468,
-      "sha256": "ef836075f8338be3b10fafef992ddcc5ac8bebfbc99424abf081dea90b721dc1"
-    },
-    {
-      "path": "submission-jcn/submission.pdf",
-      "bytes": 1239138,
-      "sha256": "a09ffc88f50832a52c0969a16758c158ce803803c9214df4c65482d002275aa1"
-    },
-    {
-      "path": "submission-jcn/submission.tex",
-      "bytes": 168810,
-      "sha256": "f6e0ca7d16d77858f50b97c381e312c1d40a9d01e1417eded54d6d7c7846ff8f"
     }
   ]
 }
