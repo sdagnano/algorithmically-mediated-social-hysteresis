@@ -1,0 +1,22 @@
+key,doi,severity,field,current_value,verified_value,recommendation,source_url
+MISSING_NEW_SOURCE,10.1002/sres.70126,high,coverage,absent from frozen 87-record corpus,"Johnny Chan (2026), Where the Brake Slips: A Feedback View of the Micro-Drama Platform, Systems Research and Behavioral Science, Early View, 1-7",Add as a qualitative algorithmic-hysteresis conjecture; distinguish it from a closed-loop causal identification design.,https://onlinelibrary.wiley.com/doi/10.1002/sres.70126
+arruda2022algorithms,10.1016/j.ins.2021.12.069,high,year,2021,published-print=2022; published=2022; issued=2022,Use the year attached to the version of record.,https://api.crossref.org/works/10.1016%2Fj.ins.2021.12.069
+bojinov2023switchback,10.1287/mnsc.2022.4583,high,year,2022,published-print=2023; published=2023; issued=2023,Use the year attached to the version of record.,https://api.crossref.org/works/10.1287%2Fmnsc.2022.4583
+huszar2022amplification,10.1073/pnas.2025334119,high,bibliographic_year,2021,2022,"Cite the issue assignment: PNAS 119(1), e2025334119 (2022); online-first was 21 Dec 2021.",https://pubmed.ncbi.nlm.nih.gov/34934011/
+huszar2022amplification,10.1073/pnas.2025334119,high,container,arXiv (Cornell University),Proceedings of the National Academy of Sciences,Replace the preprint venue with the Version-of-Record venue.,https://api.crossref.org/works/10.1073%2Fpnas.2025334119
+oliveira2026interplay,10.1093/pnasnexus/pgaf402,high,bibliographic_year,2025,2026,"Cite as PNAS Nexus 5(1), January 2026, pgaf402; online 30 Dec 2025.",https://academic.oup.com/pnasnexus/article/5/1/pgaf402/8407381
+sinha2016deconvolving,10.48550/arxiv.1703.01049,high,year,2016,2017,Cite the arXiv DOI and arXiv version consistently.,https://api.datacite.org/dois/10.48550%2Farxiv.1703.01049
+zeng2015mutual,10.1088/1742-5468/2015/07/p07020,high,conceptual_positioning,generic recommender-feedback precedent,explicit hysteresis in a coevolving user-item/recommender system measured by stationary popularity Gini,Name Zeng et al. as the closest direct algorithmic-hysteresis predecessor.,https://arxiv.org/abs/1508.01672
+bandy2021twitter,10.1177/20563051211041648,medium,pages_or_article_number,,20563051211041648,Use the Version-of-Record article number.,https://api.crossref.org/works/10.1177%2F20563051211041648
+baumann2021topics,10.1103/physrevx.11.011012,medium,pages_or_article_number,,011012,Use the Version-of-Record article number.,https://api.crossref.org/works/10.1103%2Fphysrevx.11.011012
+cinelli2021echo,10.1073/pnas.2023301118,medium,pages_or_article_number,,e2023301118,Use the Version-of-Record article number.,https://api.crossref.org/works/10.1073%2Fpnas.2023301118
+hartmann2025review,10.1007/s42001-025-00381-z,medium,pages_or_article_number,,52,Use the Version-of-Record article number.,https://api.crossref.org/works/10.1007%2Fs42001-025-00381-z
+huszar2022amplification,10.1073/pnas.2025334119,medium,issue,,1,Use the Version-of-Record issue.,https://api.crossref.org/works/10.1073%2Fpnas.2025334119
+huszar2022amplification,10.1073/pnas.2025334119,medium,pages_or_article_number,,e2025334119,Use the Version-of-Record article number.,https://api.crossref.org/works/10.1073%2Fpnas.2025334119
+huszar2022amplification,10.1073/pnas.2025334119,medium,volume,,119,Use the Version-of-Record volume.,https://api.crossref.org/works/10.1073%2Fpnas.2025334119
+kan2023adaptive,10.1093/comnet/cnac055,medium,pages_or_article_number,,cnac055,Use the Version-of-Record article number.,https://api.crossref.org/works/10.1093%2Fcomnet%2Fcnac055
+macy2021polarization,10.1073/pnas.2102144118,medium,pages_or_article_number,,e2102144118,Use the Version-of-Record article number.,https://api.crossref.org/works/10.1073%2Fpnas.2102144118
+noorazar2020survey,10.1140/epjp/s13360-020-00541-2,medium,pages_or_article_number,,521,Use the Version-of-Record article number.,https://api.crossref.org/works/10.1140%2Fepjp%2Fs13360-020-00541-2
+peralta2020asymmetry,10.1103/physrevresearch.2.043117,medium,pages_or_article_number,,043117,Use the Version-of-Record article number.,https://api.crossref.org/works/10.1103%2Fphysrevresearch.2.043117
+wang2020public,10.1103/physrevx.10.041042,medium,pages_or_article_number,,041042,Use the Version-of-Record article number.,https://api.crossref.org/works/10.1103%2Fphysrevx.10.041042
+wang2024carryover,10.1093/biomtc/ujae023,medium,pages_or_article_number,,ujae023,Use the Version-of-Record article number.,https://api.crossref.org/works/10.1093%2Fbiomtc%2Fujae023

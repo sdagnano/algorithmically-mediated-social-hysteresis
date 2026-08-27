@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper."
+title: "Testing algorithmically mediated social hysteresis reproducibility archive"
+type: software
+version: 1.0.0
+authors:
+  - given-names: Simone
+    family-names: "D'Agnano"
+    orcid: "https://orcid.org/0009-0003-6394-9408"
+repository-code: "https://github.com/sdagnano/algorithmically-mediated-social-hysteresis"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Testing Algorithmically Mediated Social Hysteresis: Closed-Loop Causal Tests and Reversal Control"
+  authors:
+    - given-names: Simone
+      family-names: "D'Agnano"
+      orcid: "https://orcid.org/0009-0003-6394-9408"
+  year: 2026

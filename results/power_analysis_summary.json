@@ -1,0 +1,554 @@
+{
+  "status": "simulation-based feasibility screen; not a final sample-size determination",
+  "outer_replicates_per_scenario": 1000,
+  "randomization_reassignments_per_dataset": 499,
+  "history_design": {
+    "grid_points": 5,
+    "shape": [
+      0.25,
+      0.7,
+      1,
+      0.7,
+      0.25
+    ],
+    "allocation": "balanced complete randomization to two histories, independently redrawn in every dataset",
+    "cluster_random_intercept_variance_share": 0.1,
+    "serial_rho": 0.5,
+    "attrition": 0.1,
+    "leakage": 0.1,
+    "empty_arm_rule": "redraw the entire Monte Carlo dataset only if attrition leaves fewer than two observed clusters in an assigned arm",
+    "test": "dataset-level studentized max statistic compared with complete-history reassignment distribution"
+  },
+  "reset_design": {
+    "factorial_cells": 4,
+    "shape": [
+      0.25,
+      0.7,
+      1,
+      0.7,
+      0.25
+    ],
+    "allocation": "balanced complete randomization to the 2x2 history-by-restoration cells, independently redrawn in every dataset",
+    "cluster_random_intercept_variance_share": 0.1,
+    "serial_rho": 0.5,
+    "attrition": 0.1,
+    "empty_cell_rule": "redraw the entire Monte Carlo dataset only if attrition leaves fewer than two observed clusters in an assigned cell",
+    "test": "dataset-level studentized maximum history-by-reset interaction compared with factorial reassignment distribution"
+  },
+  "history_grid": [
+    {
+      "n_clusters": 48,
+      "standardized_max_gap": 0.3,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "leakage": 0.1,
+      "power": 0.092,
+      "type1": 0.047,
+      "mcse": 0.00913980306133562
+    },
+    {
+      "n_clusters": 48,
+      "standardized_max_gap": 0.4,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "leakage": 0.1,
+      "power": 0.167,
+      "type1": 0.047,
+      "mcse": 0.01179453263168999
+    },
+    {
+      "n_clusters": 48,
+      "standardized_max_gap": 0.5,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "leakage": 0.1,
+      "power": 0.184,
+      "type1": 0.047,
+      "mcse": 0.012253326079069307
+    },
+    {
+      "n_clusters": 80,
+      "standardized_max_gap": 0.3,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "leakage": 0.1,
+      "power": 0.178,
+      "type1": 0.055,
+      "mcse": 0.012096115078817662
+    },
+    {
+      "n_clusters": 80,
+      "standardized_max_gap": 0.4,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "leakage": 0.1,
+      "power": 0.242,
+      "type1": 0.055,
+      "mcse": 0.013543854695026818
+    },
+    {
+      "n_clusters": 80,
+      "standardized_max_gap": 0.5,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "leakage": 0.1,
+      "power": 0.345,
+      "type1": 0.055,
+      "mcse": 0.015032464867745409
+    },
+    {
+      "n_clusters": 128,
+      "standardized_max_gap": 0.3,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "leakage": 0.1,
+      "power": 0.205,
+      "type1": 0.041,
+      "mcse": 0.0127661662216971
+    },
+    {
+      "n_clusters": 128,
+      "standardized_max_gap": 0.4,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "leakage": 0.1,
+      "power": 0.349,
+      "type1": 0.041,
+      "mcse": 0.01507312177354114
+    },
+    {
+      "n_clusters": 128,
+      "standardized_max_gap": 0.5,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "leakage": 0.1,
+      "power": 0.534,
+      "type1": 0.041,
+      "mcse": 0.01577479001445027
+    },
+    {
+      "n_clusters": 192,
+      "standardized_max_gap": 0.3,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "leakage": 0.1,
+      "power": 0.318,
+      "type1": 0.05,
+      "mcse": 0.014726710426975875
+    },
+    {
+      "n_clusters": 192,
+      "standardized_max_gap": 0.4,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "leakage": 0.1,
+      "power": 0.511,
+      "type1": 0.05,
+      "mcse": 0.015807561481771943
+    },
+    {
+      "n_clusters": 192,
+      "standardized_max_gap": 0.5,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "leakage": 0.1,
+      "power": 0.73,
+      "type1": 0.05,
+      "mcse": 0.014039230748157109
+    },
+    {
+      "n_clusters": 256,
+      "standardized_max_gap": 0.3,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "leakage": 0.1,
+      "power": 0.416,
+      "type1": 0.056,
+      "mcse": 0.01558666096378567
+    },
+    {
+      "n_clusters": 256,
+      "standardized_max_gap": 0.4,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "leakage": 0.1,
+      "power": 0.669,
+      "type1": 0.056,
+      "mcse": 0.014880826589944525
+    },
+    {
+      "n_clusters": 256,
+      "standardized_max_gap": 0.5,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "leakage": 0.1,
+      "power": 0.858,
+      "type1": 0.056,
+      "mcse": 0.011037934589405756
+    },
+    {
+      "n_clusters": 320,
+      "standardized_max_gap": 0.3,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "leakage": 0.1,
+      "power": 0.498,
+      "type1": 0.042,
+      "mcse": 0.01581126180922952
+    },
+    {
+      "n_clusters": 320,
+      "standardized_max_gap": 0.4,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "leakage": 0.1,
+      "power": 0.77,
+      "type1": 0.042,
+      "mcse": 0.013307892395116514
+    },
+    {
+      "n_clusters": 320,
+      "standardized_max_gap": 0.5,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "leakage": 0.1,
+      "power": 0.938,
+      "type1": 0.042,
+      "mcse": 0.00762600813007697
+    }
+  ],
+  "reset_grid": [
+    {
+      "n_clusters": 64,
+      "standardized_history_reset_interaction": 0.4,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "power": 0.089,
+      "type1": 0.045,
+      "mcse": 0.00900438781928011
+    },
+    {
+      "n_clusters": 64,
+      "standardized_history_reset_interaction": 0.5,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "power": 0.106,
+      "type1": 0.045,
+      "mcse": 0.009734680272099337
+    },
+    {
+      "n_clusters": 64,
+      "standardized_history_reset_interaction": 0.6,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "power": 0.128,
+      "type1": 0.045,
+      "mcse": 0.010564847372300274
+    },
+    {
+      "n_clusters": 128,
+      "standardized_history_reset_interaction": 0.4,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "power": 0.149,
+      "type1": 0.051,
+      "mcse": 0.01126050620531777
+    },
+    {
+      "n_clusters": 128,
+      "standardized_history_reset_interaction": 0.5,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "power": 0.191,
+      "type1": 0.051,
+      "mcse": 0.012430567163247218
+    },
+    {
+      "n_clusters": 128,
+      "standardized_history_reset_interaction": 0.6,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "power": 0.263,
+      "type1": 0.051,
+      "mcse": 0.013922320208930694
+    },
+    {
+      "n_clusters": 192,
+      "standardized_history_reset_interaction": 0.4,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "power": 0.181,
+      "type1": 0.055,
+      "mcse": 0.0121753439376471
+    },
+    {
+      "n_clusters": 192,
+      "standardized_history_reset_interaction": 0.5,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "power": 0.281,
+      "type1": 0.055,
+      "mcse": 0.014214042352547005
+    },
+    {
+      "n_clusters": 192,
+      "standardized_history_reset_interaction": 0.6,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "power": 0.408,
+      "type1": 0.055,
+      "mcse": 0.015541428505771277
+    },
+    {
+      "n_clusters": 256,
+      "standardized_history_reset_interaction": 0.4,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "power": 0.255,
+      "type1": 0.054,
+      "mcse": 0.013783141876945184
+    },
+    {
+      "n_clusters": 256,
+      "standardized_history_reset_interaction": 0.5,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "power": 0.369,
+      "type1": 0.054,
+      "mcse": 0.015259062880793171
+    },
+    {
+      "n_clusters": 256,
+      "standardized_history_reset_interaction": 0.6,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "power": 0.466,
+      "type1": 0.054,
+      "mcse": 0.01577479001445027
+    },
+    {
+      "n_clusters": 384,
+      "standardized_history_reset_interaction": 0.4,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "power": 0.316,
+      "type1": 0.052,
+      "mcse": 0.014701836619960105
+    },
+    {
+      "n_clusters": 384,
+      "standardized_history_reset_interaction": 0.5,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "power": 0.496,
+      "type1": 0.052,
+      "mcse": 0.01581088232832058
+    },
+    {
+      "n_clusters": 384,
+      "standardized_history_reset_interaction": 0.6,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "power": 0.701,
+      "type1": 0.052,
+      "mcse": 0.014477534320456644
+    },
+    {
+      "n_clusters": 512,
+      "standardized_history_reset_interaction": 0.4,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "power": 0.44,
+      "type1": 0.046,
+      "mcse": 0.015697133496278867
+    },
+    {
+      "n_clusters": 512,
+      "standardized_history_reset_interaction": 0.5,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "power": 0.631,
+      "type1": 0.046,
+      "mcse": 0.015259062880793171
+    },
+    {
+      "n_clusters": 512,
+      "standardized_history_reset_interaction": 0.6,
+      "shape": "broad_hump",
+      "cluster_random_intercept_variance_share": 0.1,
+      "serial_rho": 0.5,
+      "attrition": 0.1,
+      "power": 0.813,
+      "type1": 0.046,
+      "mcse": 0.012330085157856779
+    }
+  ],
+  "shape_sensitivity": [
+    {
+      "design": "history",
+      "n_clusters": 256,
+      "effect": 0.4,
+      "shape": "broad_hump",
+      "power": 0.652,
+      "mcse": 0.015063067416698366
+    },
+    {
+      "design": "factorial",
+      "n_clusters": 384,
+      "effect": 0.5,
+      "shape": "broad_hump",
+      "power": 0.503,
+      "mcse": 0.01581110369329099
+    },
+    {
+      "design": "history",
+      "n_clusters": 256,
+      "effect": 0.4,
+      "shape": "localized_threshold",
+      "power": 0.582,
+      "mcse": 0.015597307459943206
+    },
+    {
+      "design": "factorial",
+      "n_clusters": 384,
+      "effect": 0.5,
+      "shape": "localized_threshold",
+      "power": 0.44,
+      "mcse": 0.015697133496278867
+    },
+    {
+      "design": "history",
+      "n_clusters": 256,
+      "effect": 0.4,
+      "shape": "broad_plateau",
+      "power": 0.837,
+      "mcse": 0.011680368144883107
+    },
+    {
+      "design": "factorial",
+      "n_clusters": 384,
+      "effect": 0.5,
+      "shape": "broad_plateau",
+      "power": 0.691,
+      "mcse": 0.014612289348353324
+    }
+  ],
+  "weak_null_heterogeneity_sanity": {
+    "purpose": "finite-population zero-average-effect diagnostic with a false sharp null; not a proof of weak-null validity",
+    "allocation": "balanced complete randomization to two histories",
+    "attrition": 0.0,
+    "leakage": 0.0,
+    "records": [
+      {
+        "n_clusters": 256,
+        "heterogeneity_amplitude": 0.4,
+        "finite_population_average_effect": 0.0,
+        "sharp_null": false,
+        "shape": "broad_hump",
+        "cluster_random_intercept_variance_share": 0.1,
+        "serial_rho": 0.5,
+        "attrition": 0.0,
+        "leakage": 0.0,
+        "rejection_rate": 0.049,
+        "mcse": 0.006826346021115542
+      },
+      {
+        "n_clusters": 256,
+        "heterogeneity_amplitude": 0.8,
+        "finite_population_average_effect": 0.0,
+        "sharp_null": false,
+        "shape": "broad_hump",
+        "cluster_random_intercept_variance_share": 0.1,
+        "serial_rho": 0.5,
+        "attrition": 0.0,
+        "leakage": 0.0,
+        "rejection_rate": 0.035,
+        "mcse": 0.005811626278418116
+      },
+      {
+        "n_clusters": 256,
+        "heterogeneity_amplitude": 1.2,
+        "finite_population_average_effect": 0.0,
+        "sharp_null": false,
+        "shape": "broad_hump",
+        "cluster_random_intercept_variance_share": 0.1,
+        "serial_rho": 0.5,
+        "attrition": 0.0,
+        "leakage": 0.0,
+        "rejection_rate": 0.037,
+        "mcse": 0.005969170796685248
+      }
+    ]
+  },
+  "required_final_workflow": "Lock nuisance ranges from a blinded pilot and rerun the same dataset-level assignment-reassignment algorithm with at least 20,000 outer replicates and a preregistered randomization-draw budget per candidate design."
+}

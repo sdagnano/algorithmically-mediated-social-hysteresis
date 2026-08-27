@@ -1,0 +1,7 @@
+design,n_clusters,effect,shape,power,mcse
+history,256,0.4,broad_hump,0.652,0.015063067416698366
+factorial,384,0.5,broad_hump,0.503,0.01581110369329099
+history,256,0.4,localized_threshold,0.582,0.015597307459943206
+factorial,384,0.5,localized_threshold,0.44,0.015697133496278867
+history,256,0.4,broad_plateau,0.837,0.011680368144883107
+factorial,384,0.5,broad_plateau,0.691,0.014612289348353324

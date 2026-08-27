@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+tmp/
+
+submission/*.aux
+submission/*.log
+submission/*.out
+submission/*.synctex.gz
+submission/submission.pdf
+submission-jcn/*.aux
+submission-jcn/*.log
+submission-jcn/*.out
+submission-jcn/*.synctex.gz
+
+qa/
+outputs/

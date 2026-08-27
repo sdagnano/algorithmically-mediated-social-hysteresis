@@ -1,0 +1,699 @@
+{
+  "status": "synthetic structural stress test; not an empirical estimate",
+  "base_model": {
+    "gain": 10.0,
+    "w_g": 0.45,
+    "w_alpha": 0.6,
+    "w_m": 0.4,
+    "w_l": 0.18,
+    "w_c": 0.12,
+    "threshold": 0.62,
+    "tau_g": 1.0,
+    "tau_m": 30.0,
+    "tau_l": 40.0,
+    "tau_c": 60.0,
+    "delta_m": 0.03,
+    "build_0": 0.04,
+    "build_alpha": 0.18,
+    "decay_l": 0.04,
+    "consolidate_c": 0.12,
+    "recover_c": 0.045
+  },
+  "terminology": {
+    "ablation": "reservoir contribution removed throughout the path",
+    "zeroing": "reservoir state assigned to zero at reversal; diagnostic only",
+    "restoration": "assignment to and tracking of a contemporaneous alpha=0 reference trajectory",
+    "human_recovery": "increased recovery rate; never literal erasure"
+  },
+  "regime_results": [
+    {
+      "regime": "fast-subsystem monostable, no memory",
+      "link": "logistic",
+      "dwell": 5.0,
+      "signed_area": 0.007194092765011318,
+      "absolute_area": 0.007194092765011318,
+      "max_absolute_gap": 0.06895777080220417,
+      "endpoint_state_deficit": 0.1598365001474374,
+      "endpoint_G_gap": 1.7819183555172445e-06
+    },
+    {
+      "regime": "fast-subsystem monostable, no memory",
+      "link": "logistic",
+      "dwell": 20.0,
+      "signed_area": 2.999744508230843e-05,
+      "absolute_area": 2.999744508230843e-05,
+      "max_absolute_gap": 0.00060779548151918,
+      "endpoint_state_deficit": 0.26096122699109575,
+      "endpoint_G_gap": 1.0637758035558775e-13
+    },
+    {
+      "regime": "fast-subsystem monostable, no memory",
+      "link": "logistic",
+      "dwell": 80.0,
+      "signed_area": 1.77260260867766e-13,
+      "absolute_area": 1.77260260867766e-13,
+      "max_absolute_gap": 5.272171588188712e-12,
+      "endpoint_state_deficit": 0.14081465108143726,
+      "endpoint_G_gap": 1.734723475976807e-18
+    },
+    {
+      "regime": "fast-subsystem monostable, no memory",
+      "link": "logistic",
+      "dwell": 320.0,
+      "signed_area": 3.425211503316207e-16,
+      "absolute_area": 3.425211503316207e-16,
+      "max_absolute_gap": 2.1094237467877974e-15,
+      "endpoint_state_deficit": 0.007949439590073338,
+      "endpoint_G_gap": 1.734723475976807e-18
+    },
+    {
+      "regime": "fast-subsystem monostable + slow memory",
+      "link": "logistic",
+      "dwell": 5.0,
+      "signed_area": 0.3286908293596397,
+      "absolute_area": 0.3286908293596397,
+      "max_absolute_gap": 0.8714015912155494,
+      "endpoint_state_deficit": 0.38308940963549304,
+      "endpoint_G_gap": 0.0035038300445890676
+    },
+    {
+      "regime": "fast-subsystem monostable + slow memory",
+      "link": "logistic",
+      "dwell": 20.0,
+      "signed_area": 0.4056919786156297,
+      "absolute_area": 0.4056919786156297,
+      "max_absolute_gap": 0.9326551160129903,
+      "endpoint_state_deficit": 0.5581546213674481,
+      "endpoint_G_gap": 0.01699773929279017
+    },
+    {
+      "regime": "fast-subsystem monostable + slow memory",
+      "link": "logistic",
+      "dwell": 80.0,
+      "signed_area": 0.36650106995409065,
+      "absolute_area": 0.36650106995409065,
+      "max_absolute_gap": 0.9445992459541247,
+      "endpoint_state_deficit": 0.4392761955847544,
+      "endpoint_G_gap": 0.010898622639180016
+    },
+    {
+      "regime": "fast-subsystem monostable + slow memory",
+      "link": "logistic",
+      "dwell": 320.0,
+      "signed_area": 0.2736256524546325,
+      "absolute_area": 0.2736256524546325,
+      "max_absolute_gap": 0.9401607246012578,
+      "endpoint_state_deficit": 0.0921126588266083,
+      "endpoint_G_gap": 0.0008792719674813455
+    },
+    {
+      "regime": "near-critical fast subsystem + memory",
+      "link": "logistic",
+      "dwell": 5.0,
+      "signed_area": 0.3649609766433233,
+      "absolute_area": 0.3649609766433233,
+      "max_absolute_gap": 0.922104308803155,
+      "endpoint_state_deficit": 0.4421335216138148,
+      "endpoint_G_gap": 0.004202475509035101
+    },
+    {
+      "regime": "near-critical fast subsystem + memory",
+      "link": "logistic",
+      "dwell": 20.0,
+      "signed_area": 0.4396489163307039,
+      "absolute_area": 0.4396489163307039,
+      "max_absolute_gap": 0.9580037024277042,
+      "endpoint_state_deficit": 0.6267090664447632,
+      "endpoint_G_gap": 0.020783738007911858
+    },
+    {
+      "regime": "near-critical fast subsystem + memory",
+      "link": "logistic",
+      "dwell": 80.0,
+      "signed_area": 0.40995936984285436,
+      "absolute_area": 0.40995936984285436,
+      "max_absolute_gap": 0.9646309918202609,
+      "endpoint_state_deficit": 0.519143471272025,
+      "endpoint_G_gap": 0.015655735910025264
+    },
+    {
+      "regime": "near-critical fast subsystem + memory",
+      "link": "logistic",
+      "dwell": 320.0,
+      "signed_area": 0.3195223358224124,
+      "absolute_area": 0.3195223358224124,
+      "max_absolute_gap": 0.963006154449157,
+      "endpoint_state_deficit": 0.16277237904494815,
+      "endpoint_G_gap": 0.0018983722504914576
+    },
+    {
+      "regime": "bistable, no memory",
+      "link": "logistic",
+      "dwell": 5.0,
+      "signed_area": 0.059691535758087874,
+      "absolute_area": 0.059691535758087874,
+      "max_absolute_gap": 0.591813863616621,
+      "endpoint_state_deficit": 0.25960925840574106,
+      "endpoint_G_gap": 1.8356070307866922e-06
+    },
+    {
+      "regime": "bistable, no memory",
+      "link": "logistic",
+      "dwell": 20.0,
+      "signed_area": 0.019317933372962132,
+      "absolute_area": 0.019317933372962132,
+      "max_absolute_gap": 0.530284917047502,
+      "endpoint_state_deficit": 0.35606398906652165,
+      "endpoint_G_gap": 1.169576588355703e-13
+    },
+    {
+      "regime": "bistable, no memory",
+      "link": "logistic",
+      "dwell": 80.0,
+      "signed_area": 0.01721715614613707,
+      "absolute_area": 0.01721715614613707,
+      "max_absolute_gap": 0.5165146843838576,
+      "endpoint_state_deficit": 0.18491175878563387,
+      "endpoint_G_gap": 1.734723475976807e-18
+    },
+    {
+      "regime": "bistable, no memory",
+      "link": "logistic",
+      "dwell": 320.0,
+      "signed_area": 0.017211891089160273,
+      "absolute_area": 0.017211891089160273,
+      "max_absolute_gap": 0.5163567326748015,
+      "endpoint_state_deficit": 0.009635039077434378,
+      "endpoint_G_gap": 1.734723475976807e-18
+    },
+    {
+      "regime": "bistable + memory",
+      "link": "logistic",
+      "dwell": 5.0,
+      "signed_area": 0.38903734691118524,
+      "absolute_area": 0.38903734691118524,
+      "max_absolute_gap": 0.9400293803808841,
+      "endpoint_state_deficit": 0.47199005229264884,
+      "endpoint_G_gap": 0.004586199356945668
+    },
+    {
+      "regime": "bistable + memory",
+      "link": "logistic",
+      "dwell": 20.0,
+      "signed_area": 0.4657913113075591,
+      "absolute_area": 0.4657913113075591,
+      "max_absolute_gap": 0.9673605154223563,
+      "endpoint_state_deficit": 0.670200816112853,
+      "endpoint_G_gap": 0.02353163213543062
+    },
+    {
+      "regime": "bistable + memory",
+      "link": "logistic",
+      "dwell": 80.0,
+      "signed_area": 0.4325142198597687,
+      "absolute_area": 0.4325142198597687,
+      "max_absolute_gap": 0.9722267497938879,
+      "endpoint_state_deficit": 0.5775905317950714,
+      "endpoint_G_gap": 0.019570089710338103
+    },
+    {
+      "regime": "bistable + memory",
+      "link": "logistic",
+      "dwell": 320.0,
+      "signed_area": 0.3773084760756549,
+      "absolute_area": 0.3773084760756549,
+      "max_absolute_gap": 0.9712198112062914,
+      "endpoint_state_deficit": 0.23684114878250237,
+      "endpoint_G_gap": 0.0033830131645941905
+    },
+    {
+      "regime": "bistable + memory (logistic)",
+      "link": "logistic",
+      "dwell": 20.0,
+      "signed_area": 0.4657913113075591,
+      "absolute_area": 0.4657913113075591,
+      "max_absolute_gap": 0.9673605154223563,
+      "endpoint_state_deficit": 0.670200816112853,
+      "endpoint_G_gap": 0.02353163213543062
+    },
+    {
+      "regime": "bistable + memory (logistic)",
+      "link": "logistic",
+      "dwell": 80.0,
+      "signed_area": 0.4325142198597687,
+      "absolute_area": 0.4325142198597687,
+      "max_absolute_gap": 0.9722267497938879,
+      "endpoint_state_deficit": 0.5775905317950714,
+      "endpoint_G_gap": 0.019570089710338103
+    },
+    {
+      "regime": "bistable + memory (logistic)",
+      "link": "logistic",
+      "dwell": 320.0,
+      "signed_area": 0.3773084760756549,
+      "absolute_area": 0.3773084760756549,
+      "max_absolute_gap": 0.9712198112062914,
+      "endpoint_state_deficit": 0.23684114878250237,
+      "endpoint_G_gap": 0.0033830131645941905
+    },
+    {
+      "regime": "bistable + memory (probit)",
+      "link": "probit",
+      "dwell": 20.0,
+      "signed_area": 0.48703894718516944,
+      "absolute_area": 0.48703894718516944,
+      "max_absolute_gap": 0.9906618977241278,
+      "endpoint_state_deficit": 0.6741087773194686,
+      "endpoint_G_gap": 0.009949594203494108
+    },
+    {
+      "regime": "bistable + memory (probit)",
+      "link": "probit",
+      "dwell": 80.0,
+      "signed_area": 0.4574806418848763,
+      "absolute_area": 0.4574806418848763,
+      "max_absolute_gap": 0.9933082059884705,
+      "endpoint_state_deficit": 0.5923804118344089,
+      "endpoint_G_gap": 0.00802554882125847
+    },
+    {
+      "regime": "bistable + memory (probit)",
+      "link": "probit",
+      "dwell": 320.0,
+      "signed_area": 0.41971429790219145,
+      "absolute_area": 0.41971429790219145,
+      "max_absolute_gap": 0.9932010408160175,
+      "endpoint_state_deficit": 0.23784677722771325,
+      "endpoint_G_gap": 0.000467162634476289
+    }
+  ],
+  "full_system_classification": [
+    {
+      "regime": "fast-subsystem monostable, no memory",
+      "classification": "full-system monostable on the equilibrium/stability grid",
+      "max_stable_equilibria": 1,
+      "multistable_alpha_min": NaN,
+      "multistable_alpha_max": NaN,
+      "minimum_stable_spectral_gap": 0.0007525461009209195,
+      "alpha_grid_points": 401,
+      "root_grid_points": 20001
+    },
+    {
+      "regime": "fast-subsystem monostable + slow memory",
+      "classification": "full-system multistable on the equilibrium/stability grid",
+      "max_stable_equilibria": 2,
+      "multistable_alpha_min": 0.2925,
+      "multistable_alpha_max": 0.4675,
+      "minimum_stable_spectral_gap": 8.264094616812644e-05,
+      "alpha_grid_points": 401,
+      "root_grid_points": 20001
+    },
+    {
+      "regime": "near-critical fast subsystem + memory",
+      "classification": "full-system multistable on the equilibrium/stability grid",
+      "max_stable_equilibria": 2,
+      "multistable_alpha_min": 0.2025,
+      "multistable_alpha_max": 0.45,
+      "minimum_stable_spectral_gap": 0.00022508106162706545,
+      "alpha_grid_points": 401,
+      "root_grid_points": 20001
+    },
+    {
+      "regime": "bistable, no memory",
+      "classification": "full-system multistable on the equilibrium/stability grid",
+      "max_stable_equilibria": 2,
+      "multistable_alpha_min": 0.65,
+      "multistable_alpha_max": 0.6675,
+      "minimum_stable_spectral_gap": 0.0007525549961780461,
+      "alpha_grid_points": 401,
+      "root_grid_points": 20001
+    },
+    {
+      "regime": "bistable + memory",
+      "classification": "full-system multistable on the equilibrium/stability grid",
+      "max_stable_equilibria": 2,
+      "multistable_alpha_min": 0.1525,
+      "multistable_alpha_max": 0.4425,
+      "minimum_stable_spectral_gap": 0.0002149356523079447,
+      "alpha_grid_points": 401,
+      "root_grid_points": 20001
+    }
+  ],
+  "equilibrium_grid_refinement": [
+    {
+      "regime": "fast-subsystem monostable, no memory",
+      "classification": "full-system monostable on the equilibrium/stability grid",
+      "max_stable_equilibria": 1,
+      "multistable_alpha_min": NaN,
+      "multistable_alpha_max": NaN,
+      "minimum_stable_spectral_gap": 0.0007525461009209195,
+      "alpha_grid_points": 201,
+      "root_grid_points": 10001,
+      "audit_alpha_grid_points": 201,
+      "audit_root_grid_points": 10001
+    },
+    {
+      "regime": "fast-subsystem monostable + slow memory",
+      "classification": "full-system multistable on the equilibrium/stability grid",
+      "max_stable_equilibria": 2,
+      "multistable_alpha_min": 0.295,
+      "multistable_alpha_max": 0.465,
+      "minimum_stable_spectral_gap": 0.00023523773980596395,
+      "alpha_grid_points": 201,
+      "root_grid_points": 10001,
+      "audit_alpha_grid_points": 201,
+      "audit_root_grid_points": 10001
+    },
+    {
+      "regime": "near-critical fast subsystem + memory",
+      "classification": "full-system multistable on the equilibrium/stability grid",
+      "max_stable_equilibria": 2,
+      "multistable_alpha_min": 0.20500000000000002,
+      "multistable_alpha_max": 0.45,
+      "minimum_stable_spectral_gap": 0.00022508106162706545,
+      "alpha_grid_points": 201,
+      "root_grid_points": 10001,
+      "audit_alpha_grid_points": 201,
+      "audit_root_grid_points": 10001
+    },
+    {
+      "regime": "bistable, no memory",
+      "classification": "full-system multistable on the equilibrium/stability grid",
+      "max_stable_equilibria": 2,
+      "multistable_alpha_min": 0.65,
+      "multistable_alpha_max": 0.665,
+      "minimum_stable_spectral_gap": 0.0007525549961780461,
+      "alpha_grid_points": 201,
+      "root_grid_points": 10001,
+      "audit_alpha_grid_points": 201,
+      "audit_root_grid_points": 10001
+    },
+    {
+      "regime": "bistable + memory",
+      "classification": "full-system multistable on the equilibrium/stability grid",
+      "max_stable_equilibria": 2,
+      "multistable_alpha_min": 0.155,
+      "multistable_alpha_max": 0.44,
+      "minimum_stable_spectral_gap": 0.00030634243166272496,
+      "alpha_grid_points": 201,
+      "root_grid_points": 10001,
+      "audit_alpha_grid_points": 201,
+      "audit_root_grid_points": 10001
+    },
+    {
+      "regime": "fast-subsystem monostable, no memory",
+      "classification": "full-system monostable on the equilibrium/stability grid",
+      "max_stable_equilibria": 1,
+      "multistable_alpha_min": NaN,
+      "multistable_alpha_max": NaN,
+      "minimum_stable_spectral_gap": 0.0007525461009209195,
+      "alpha_grid_points": 401,
+      "root_grid_points": 20001,
+      "audit_alpha_grid_points": 401,
+      "audit_root_grid_points": 20001
+    },
+    {
+      "regime": "fast-subsystem monostable + slow memory",
+      "classification": "full-system multistable on the equilibrium/stability grid",
+      "max_stable_equilibria": 2,
+      "multistable_alpha_min": 0.2925,
+      "multistable_alpha_max": 0.4675,
+      "minimum_stable_spectral_gap": 8.264094616812644e-05,
+      "alpha_grid_points": 401,
+      "root_grid_points": 20001,
+      "audit_alpha_grid_points": 401,
+      "audit_root_grid_points": 20001
+    },
+    {
+      "regime": "near-critical fast subsystem + memory",
+      "classification": "full-system multistable on the equilibrium/stability grid",
+      "max_stable_equilibria": 2,
+      "multistable_alpha_min": 0.2025,
+      "multistable_alpha_max": 0.45,
+      "minimum_stable_spectral_gap": 0.00022508106162706545,
+      "alpha_grid_points": 401,
+      "root_grid_points": 20001,
+      "audit_alpha_grid_points": 401,
+      "audit_root_grid_points": 20001
+    },
+    {
+      "regime": "bistable, no memory",
+      "classification": "full-system multistable on the equilibrium/stability grid",
+      "max_stable_equilibria": 2,
+      "multistable_alpha_min": 0.65,
+      "multistable_alpha_max": 0.6675,
+      "minimum_stable_spectral_gap": 0.0007525549961780461,
+      "alpha_grid_points": 401,
+      "root_grid_points": 20001,
+      "audit_alpha_grid_points": 401,
+      "audit_root_grid_points": 20001
+    },
+    {
+      "regime": "bistable + memory",
+      "classification": "full-system multistable on the equilibrium/stability grid",
+      "max_stable_equilibria": 2,
+      "multistable_alpha_min": 0.1525,
+      "multistable_alpha_max": 0.4425,
+      "minimum_stable_spectral_gap": 0.0002149356523079447,
+      "alpha_grid_points": 401,
+      "root_grid_points": 20001,
+      "audit_alpha_grid_points": 401,
+      "audit_root_grid_points": 20001
+    }
+  ],
+  "fold_brackets": [
+    {
+      "regime": "fast-subsystem monostable + slow memory",
+      "alpha_left": 0.29,
+      "alpha_right": 0.2925,
+      "roots_left": 1,
+      "roots_right": 3,
+      "bracket_width": 0.0025000000000000022
+    },
+    {
+      "regime": "fast-subsystem monostable + slow memory",
+      "alpha_left": 0.4675,
+      "alpha_right": 0.47000000000000003,
+      "roots_left": 3,
+      "roots_right": 1,
+      "bracket_width": 0.0025000000000000022
+    },
+    {
+      "regime": "near-critical fast subsystem + memory",
+      "alpha_left": 0.2,
+      "alpha_right": 0.2025,
+      "roots_left": 1,
+      "roots_right": 3,
+      "bracket_width": 0.0025000000000000022
+    },
+    {
+      "regime": "near-critical fast subsystem + memory",
+      "alpha_left": 0.45,
+      "alpha_right": 0.4525,
+      "roots_left": 3,
+      "roots_right": 1,
+      "bracket_width": 0.0025000000000000022
+    },
+    {
+      "regime": "bistable, no memory",
+      "alpha_left": 0.6475,
+      "alpha_right": 0.65,
+      "roots_left": 1,
+      "roots_right": 3,
+      "bracket_width": 0.0025000000000000577
+    },
+    {
+      "regime": "bistable, no memory",
+      "alpha_left": 0.6675,
+      "alpha_right": 0.67,
+      "roots_left": 3,
+      "roots_right": 1,
+      "bracket_width": 0.0025000000000000577
+    },
+    {
+      "regime": "bistable + memory",
+      "alpha_left": 0.15,
+      "alpha_right": 0.1525,
+      "roots_left": 1,
+      "roots_right": 3,
+      "bracket_width": 0.0025000000000000022
+    },
+    {
+      "regime": "bistable + memory",
+      "alpha_left": 0.4425,
+      "alpha_right": 0.445,
+      "roots_left": 3,
+      "roots_right": 1,
+      "bracket_width": 0.0025000000000000022
+    }
+  ],
+  "intervention_results": [
+    {
+      "intervention": "none",
+      "operation": "none",
+      "signed_area": 0.4482553698887629,
+      "absolute_area": 0.4482553698887629,
+      "max_absolute_gap": 0.9720520742925616,
+      "endpoint_state_deficit": 0.6562139987108216,
+      "endpoint_G_gap": 0.026024614022508462
+    },
+    {
+      "intervention": "ablate M",
+      "operation": "ablation",
+      "signed_area": 0.4331820326954196,
+      "absolute_area": 0.4331820326954196,
+      "max_absolute_gap": 0.9450724623349279,
+      "endpoint_state_deficit": 0.5831651338271769,
+      "endpoint_G_gap": 0.020751099999006074
+    },
+    {
+      "intervention": "ablate L",
+      "operation": "ablation",
+      "signed_area": 0.29114467511992315,
+      "absolute_area": 0.29114467511992315,
+      "max_absolute_gap": 0.9394281351033268,
+      "endpoint_state_deficit": 0.46748965115808805,
+      "endpoint_G_gap": 0.002641065140104393
+    },
+    {
+      "intervention": "ablate M+L",
+      "operation": "ablation",
+      "signed_area": 0.17118670342921033,
+      "absolute_area": 0.17118670342921033,
+      "max_absolute_gap": 0.8319879943808409,
+      "endpoint_state_deficit": 0.36753762404202145,
+      "endpoint_G_gap": 0.0019135773270641575
+    },
+    {
+      "intervention": "zero M once",
+      "operation": "platform restoration",
+      "signed_area": 0.4482540097813569,
+      "absolute_area": 0.4482558133331612,
+      "max_absolute_gap": 0.9720520373275794,
+      "endpoint_state_deficit": 0.6562132043542916,
+      "endpoint_G_gap": 0.0260245361491569
+    },
+    {
+      "intervention": "zero L once",
+      "operation": "platform restoration",
+      "signed_area": 0.44733026653418145,
+      "absolute_area": 0.4473410649419457,
+      "max_absolute_gap": 0.971630358002468,
+      "endpoint_state_deficit": 0.6493741804727815,
+      "endpoint_G_gap": 0.025235503081700483
+    },
+    {
+      "intervention": "zero M+L once",
+      "operation": "platform restoration",
+      "signed_area": 0.44732517690642076,
+      "absolute_area": 0.4473448719714628,
+      "max_absolute_gap": 0.9716300477754852,
+      "endpoint_state_deficit": 0.6493691665483994,
+      "endpoint_G_gap": 0.025234972683190245
+    },
+    {
+      "intervention": "reference-restore M+L",
+      "operation": "platform restoration",
+      "signed_area": 0.10307992380110406,
+      "absolute_area": 0.11992318077132029,
+      "max_absolute_gap": 0.8071446118819808,
+      "endpoint_state_deficit": 0.2775911970723243,
+      "endpoint_G_gap": 0.001983882871675953
+    },
+    {
+      "intervention": "facilitate C recovery",
+      "operation": "human recovery facilitation",
+      "signed_area": 0.44548104144116085,
+      "absolute_area": 0.44548104144116085,
+      "max_absolute_gap": 0.9720048201011577,
+      "endpoint_state_deficit": 0.5625450554575117,
+      "endpoint_G_gap": 0.016600458636182588
+    },
+    {
+      "intervention": "reference-restore M+L + C recovery",
+      "operation": "platform restoration",
+      "signed_area": 0.07720061823422926,
+      "absolute_area": 0.09438740285360687,
+      "max_absolute_gap": 0.7995765941580176,
+      "endpoint_state_deficit": 0.05088332821164442,
+      "endpoint_G_gap": 0.00027113844725174625
+    }
+  ],
+  "solver_crosscheck": [
+    {
+      "dwell": 50.0,
+      "max_absolute_state_difference": 0.0008649091033293699,
+      "max_absolute_G_difference": 0.00010414648057133213,
+      "endpoint_l2_difference": 6.557203651951108e-05
+    },
+    {
+      "dwell": 320.0,
+      "max_absolute_state_difference": 0.0002450799565859585,
+      "max_absolute_G_difference": 7.840186551422157e-06,
+      "endpoint_l2_difference": 2.1136931534034414e-05
+    }
+  ],
+  "global_sensitivity": {
+    "n_draws": 1000,
+    "seed": 20270826,
+    "parameters_varied": [
+      "gain",
+      "w_g",
+      "w_alpha",
+      "w_m",
+      "w_l",
+      "w_c",
+      "threshold",
+      "tau_m",
+      "tau_l",
+      "tau_c",
+      "delta_m",
+      "build_0",
+      "build_alpha",
+      "decay_l",
+      "consolidate_c",
+      "recover_c"
+    ],
+    "absolute_area_quantiles": {
+      "0.05": 0.3454774455282585,
+      "0.5": 0.43795912260973835,
+      "0.95": 0.5738446452110623
+    },
+    "endpoint_state_deficit_quantiles": {
+      "0.05": 0.46654092915222917,
+      "0.5": 0.6423533969322082,
+      "0.95": 0.8423928690602857
+    },
+    "full_system_multistable_fraction": 1.0
+  },
+  "numerical_definitions": {
+    "path_area": "composite trapezoidal rule over matched alpha, divided by alpha_max",
+    "state_deficit": "Euclidean distance in (G,M,L,C) from same-elapsed alpha=0 reference, divided by 2",
+    "process_noise": "independent Gaussian increments applied only to G after each Euler drift step; sd=0.012*sqrt(dt); all states clipped to [0,1]",
+    "process_noise_seeds": [
+      270000,
+      270127
+    ],
+    "common_random_numbers": "the same seed and Gaussian stream are used for the paired logistic and probit link runs",
+    "probit_slope_scale": 0.6266570686577501,
+    "probit_matching": "Phi(c*k*field), c=sqrt(2*pi)/4, matching the logistic derivative k/4 at field zero",
+    "bisection_iterations": 70,
+    "tangency_residual_tolerance": 1e-09,
+    "near_grid_residual_tolerance": 1e-10,
+    "root_deduplication_tolerance": 2e-05,
+    "stability_tolerance": 1e-07,
+    "human_recovery_multiplier": 4.0
+  },
+  "stochastic_link_quantiles": {
+    "logistic": {
+      "0.05": 0.4447552365998967,
+      "0.5": 0.44778876379205906,
+      "0.95": 0.45014430606521116
+    },
+    "probit": {
+      "0.05": 0.4640178739458342,
+      "0.5": 0.47350266752995884,
+      "0.95": 0.4880060245084939
+    }
+  }
+}

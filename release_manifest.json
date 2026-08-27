@@ -1,0 +1,408 @@
+{
+  "schema": "algorithmic-hysteresis-release-manifest/v1",
+  "release": "v1.0.0",
+  "generated_utc": "2026-08-27T01:35:51+00:00",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 250,
+      "sha256": "ebcfb1290790a1a8af91c07988ee2f366f313fc6108ad74f1bd2d5a8561a952e"
+    },
+    {
+      "path": "build.ps1",
+      "bytes": 1438,
+      "sha256": "7e813a49b9ab11e8a7f4e5fb2c843080500b371155b0466d39ed3ca10cd9587b"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 690,
+      "sha256": "e1fbac209f1d30882243316bac7122a63cf240118fe6f9bb00f4a74846d1e449"
+    },
+    {
+      "path": "code/adaptive_network.py",
+      "bytes": 21894,
+      "sha256": "b467a00c69d8560ddd620532eca203df642b737edb7b403f127eb90cab3b9b8a"
+    },
+    {
+      "path": "code/adaptive_network_stress.py",
+      "bytes": 23552,
+      "sha256": "7e466c47c67cb68b8cc18866fce3eea0c3bcf70676d0d6507b432d8fed5b8d96"
+    },
+    {
+      "path": "code/build_bibliography.py",
+      "bytes": 19892,
+      "sha256": "ec349e38e4a40d4ef4419318f8b7585821865b204f66c76ab53669572d0ca8ae"
+    },
+    {
+      "path": "code/build_release_manifest.py",
+      "bytes": 1815,
+      "sha256": "f2bd742cd17bb9bcf5db26b994368ef4ac6e11e10ea14e5a18de01c6a2a30b25"
+    },
+    {
+      "path": "code/design_power.py",
+      "bytes": 20372,
+      "sha256": "d9f4657fb3432e992ad61d5da3b5f386ef7db261eb87b474f190dbb17db0bc21"
+    },
+    {
+      "path": "code/model_i_stress.py",
+      "bytes": 42552,
+      "sha256": "edcffedf935fe894b4ec01444f42338c2f91c873da45fa0602f736070524ffc9"
+    },
+    {
+      "path": "code/prepare_jcn_submission.py",
+      "bytes": 5223,
+      "sha256": "fa6c9aeb8f08804d6ea6564a09d971fcd80538d332846266a547ad2252944cfa"
+    },
+    {
+      "path": "code/prepare_submission.py",
+      "bytes": 1955,
+      "sha256": "3054092531341c84c96176a54e24142085cf08925fa61a6969f2f3257ef3a808"
+    },
+    {
+      "path": "code/simulate.py",
+      "bytes": 30444,
+      "sha256": "14db2f8a607cc43f4cdff040f40cd2d0c2bbc9bff119880605a65248ffd03265"
+    },
+    {
+      "path": "code/verify_archive.py",
+      "bytes": 7813,
+      "sha256": "a453605529f6eaf2da86812e231e1873972b8ccdea0fc873ae27b674c02bd786"
+    },
+    {
+      "path": "data/derived/adaptive_network_branch_gaps.csv",
+      "bytes": 4989,
+      "sha256": "3dce718f88493ac427f7a2a99b7436f7ec6ae50dd1dad7c2567563fee59b7f70"
+    },
+    {
+      "path": "data/derived/adaptive_network_bridge_drift_validation.csv",
+      "bytes": 16980,
+      "sha256": "c2575ffb07f73a0ce3c91a36c9b29a63f80fb6b55c62ec396ea839786f3702da"
+    },
+    {
+      "path": "data/derived/adaptive_network_stress_gaps.csv",
+      "bytes": 474685,
+      "sha256": "28c03bb319c70aae0280c5899a011be11c958c9011176d4cdb57e614d275bf46"
+    },
+    {
+      "path": "data/derived/adaptive_network_stress_metrics.csv",
+      "bytes": 92995,
+      "sha256": "35e1b7b8368fe617e00881bf71906764a8faa31ddf782108d68fb0fe0b089a7b"
+    },
+    {
+      "path": "data/derived/adaptive_network_stress_trajectories.csv",
+      "bytes": 2130205,
+      "sha256": "5520404edca508a07d3ab85f5a3ef064fdb11bbd0c3983c283eec2fb34b005c0"
+    },
+    {
+      "path": "data/derived/adaptive_network_trajectories.csv",
+      "bytes": 20213,
+      "sha256": "41c84ed9354f777a4539c17145efe066f3ea579ec6fa5124f5f0dfd5b250fb3b"
+    },
+    {
+      "path": "data/derived/baseline_loop.csv",
+      "bytes": 8670,
+      "sha256": "e7296ca3e5b162ff51cc903d1a1314334b9b135a662ccdccc4059b2cebb4108e"
+    },
+    {
+      "path": "data/derived/channel_neutralization.csv",
+      "bytes": 866,
+      "sha256": "ddcf07693b2e6363e5c7d99bf91a3d6db0e4d5ad338e75aa370c32e02c104d44"
+    },
+    {
+      "path": "data/derived/model_i_equilibrium_grid_refinement.csv",
+      "bytes": 1660,
+      "sha256": "403d2bce59b01aa0f475ac4684b7663d1fb8c3235c9a06903fa66a03cd60f702"
+    },
+    {
+      "path": "data/derived/model_i_fold_brackets.csv",
+      "bytes": 631,
+      "sha256": "097fdb119f465dde2d4eb644a19bbd88dc4811f34753916191d8727fc5a05846"
+    },
+    {
+      "path": "data/derived/model_i_full_system_classification.csv",
+      "bytes": 828,
+      "sha256": "baf04e337c245b9481a5a59bf7e75f238cc1a4aa8c3160ab28c686c36258b4ba"
+    },
+    {
+      "path": "data/derived/model_i_full_system_equilibria.csv",
+      "bytes": 384801,
+      "sha256": "42275d9c3a7cac592be281776791e58d7d14000a62426d9538765f34b9de90fd"
+    },
+    {
+      "path": "data/derived/model_i_global_sensitivity.csv",
+      "bytes": 422231,
+      "sha256": "8a4b23d3b46541678aaaefb4de5ab533d63f962f68c3262d7591c0ce71ed5569"
+    },
+    {
+      "path": "data/derived/model_i_intervention_trajectories.csv",
+      "bytes": 97078,
+      "sha256": "1da190851eae7cd67ec0a8348afa9ef634446847cf92956307c1654d34fba48d"
+    },
+    {
+      "path": "data/derived/model_i_interventions.csv",
+      "bytes": 1416,
+      "sha256": "85af0e1c93f9e9d3c07483e6b8fe447b3ba853cf4d4d7dd20d840a8be3dceb7d"
+    },
+    {
+      "path": "data/derived/model_i_solver_crosscheck.csv",
+      "bytes": 233,
+      "sha256": "957ea5945c3fcb2f1ace6cb2d4c99cc4fd73dcd038d7c73807e1d31c7043fcba"
+    },
+    {
+      "path": "data/derived/model_i_stochastic_links.csv",
+      "bytes": 14424,
+      "sha256": "3b0b3c2032dc1231e921549be04b32dec2d854e4384c82d3f975fe4567c64661"
+    },
+    {
+      "path": "data/derived/model_i_structural_regimes.csv",
+      "bytes": 3877,
+      "sha256": "5147e02777653e2aeb3303ffffbf3afd67661a144571f8f633b89ab0b806d7ce"
+    },
+    {
+      "path": "data/derived/power_history_grid.csv",
+      "bytes": 1347,
+      "sha256": "219f2e2a23d261b3e0471a4d7b94dcf8674de08a9c7af9cb0b9745ef74a06ef2"
+    },
+    {
+      "path": "data/derived/power_reset_grid.csv",
+      "bytes": 1295,
+      "sha256": "fb181687d1043e206342dc516d13813ce642621fa01fd308c0fc3102bc612436"
+    },
+    {
+      "path": "data/derived/power_shape_sensitivity.csv",
+      "bytes": 401,
+      "sha256": "71f33eae228f237ffe71282b28798bc28e19b3375772ad0493c80549853fccb9"
+    },
+    {
+      "path": "data/derived/power_weak_null_heterogeneity.csv",
+      "bytes": 394,
+      "sha256": "63e7854753e3f0b993d6e77ce9d3d270ad8b0a88ae43bf695cb7632891bbbf47"
+    },
+    {
+      "path": "data/derived/rate_sweep.csv",
+      "bytes": 1811,
+      "sha256": "a577d5a7dafc4b7ef75985c313dae67b4e0aa91fad9025b3c49d4dfa343be5c2"
+    },
+    {
+      "path": "data/derived/robustness_sample.csv",
+      "bytes": 131301,
+      "sha256": "6c2e0445edccc3fdf1bf0045fe1c30d6bff8e8f6ef0e0698cedc419ca240d69d"
+    },
+    {
+      "path": "data/derived/sensitivity_grid.csv",
+      "bytes": 32047,
+      "sha256": "740b00fc954d457798af3ff167beae889ffab6e8ba8aa1037b686a78b0176a12"
+    },
+    {
+      "path": "figures/fig1_memory_ledger.pdf",
+      "bytes": 42707,
+      "sha256": "59a91542a947dbfafd2f75f06caef54f08bcf9c651408f0798728f7c061df7ff"
+    },
+    {
+      "path": "figures/fig2_causal_dag.pdf",
+      "bytes": 43391,
+      "sha256": "db979edb1a88ef5e01c2dd7aaedcb859df1db5071c096d9c7e4587a94de6df97"
+    },
+    {
+      "path": "figures/fig2_closed_loop.pdf",
+      "bytes": 44666,
+      "sha256": "199559d11c51de40d2dd048903a701d5d4dfce93f20aa8531d9679d309cd45d3"
+    },
+    {
+      "path": "figures/fig3_rate_ablation.pdf",
+      "bytes": 44182,
+      "sha256": "e6c70bfac4a8eb12174f35a8ebe9600b13376a7e550e64feb95e616cea03e486"
+    },
+    {
+      "path": "figures/fig4_sensitivity.pdf",
+      "bytes": 44150,
+      "sha256": "14c15cb3b72750a6ab413c4399159a1b1edb471cf56f3e1e6a37e0c03e767b8f"
+    },
+    {
+      "path": "figures/fig5_bifurcation.pdf",
+      "bytes": 134318,
+      "sha256": "a48fa2c50f1ca0b9bdf3dee99efe2ab71035cf95c3ecea6109109c3a4c0fcef9"
+    },
+    {
+      "path": "figures/fig5_experimental_design.pdf",
+      "bytes": 46385,
+      "sha256": "31830c12d29aaaa85b8529ef0c570b72d10fde094a459020322076c67155e15f"
+    },
+    {
+      "path": "figures/fig6_adaptive_network.pdf",
+      "bytes": 43946,
+      "sha256": "0fccfc88efc65977cad33a76cf778a871b508095ab89ea38ffd78570884871fa"
+    },
+    {
+      "path": "figures/fig8_bridge_validation.pdf",
+      "bytes": 43175,
+      "sha256": "b98c51413eb700ac302ae62194d13b41687c83e11102ee71d8dea8b6c2f95966"
+    },
+    {
+      "path": "LICENSE-CODE",
+      "bytes": 1072,
+      "sha256": "fdeda6a0a1f3951967e0790bb20d4a29f98eb405fb77b66007c96aa10111f7b6"
+    },
+    {
+      "path": "LICENSE-MANUSCRIPT",
+      "bytes": 328,
+      "sha256": "4e4818c0bb14702e1a4e7ecfc81628eee4f3d285b2461ed38fabefadd2204071"
+    },
+    {
+      "path": "literature/audit_summary.json",
+      "bytes": 1107,
+      "sha256": "f9171252181f4304ed1abee736fc54a3a95d5a06653014f1f136030ca8212d36"
+    },
+    {
+      "path": "literature/curated_bibliography.csv",
+      "bytes": 37858,
+      "sha256": "9132fb1c2c0f4cb8ab7b7d2cf035adf5583a448bf3a63beb0e7fb009ad0eb154"
+    },
+    {
+      "path": "literature/DOI_AUDIT.md",
+      "bytes": 6076,
+      "sha256": "0c7dcd378cc0d692ca6dee27ab1aa77dd520a83d1e5a769723b0562a98dc280d"
+    },
+    {
+      "path": "literature/doi_metadata_discrepancies.csv",
+      "bytes": 4489,
+      "sha256": "c4ce206d5c6d35bd0b05fecd837895ef4227d6c3f860766832888b418a9f2b02"
+    },
+    {
+      "path": "literature/SEARCH_PROTOCOL.md",
+      "bytes": 4516,
+      "sha256": "b238cac043e063a8ddc3c7ee73f61e54d61b70c1097ea3ab7d5bb46d65f39e51"
+    },
+    {
+      "path": "literature/selected_sources.csv",
+      "bytes": 8808,
+      "sha256": "b4a78e8450876fd0f94a7eb936f2614e4ee74471b898f1d1b293a4f7c76c8134"
+    },
+    {
+      "path": "literature/targeted_additions_audit.csv",
+      "bytes": 2141,
+      "sha256": "f61bdb320ebe8b0740172339c57b0a2d7a7c2a385cafc83e15e00aa3eddfee34"
+    },
+    {
+      "path": "Makefile",
+      "bytes": 901,
+      "sha256": "bb04619241bbece2e616c4828c55a6443ae4ead4aa1b51c49e9a31864f8bb15a"
+    },
+    {
+      "path": "manuscript/main.tex",
+      "bytes": 135046,
+      "sha256": "aa2e89e955c9965f0d11e7fedf70fa82f3cc3cc1999115d01dc29cb9bb9d01ba"
+    },
+    {
+      "path": "manuscript/references.bib",
+      "bytes": 46468,
+      "sha256": "ef836075f8338be3b10fafef992ddcc5ac8bebfbc99424abf081dea90b721dc1"
+    },
+    {
+      "path": "manuscript/references.tex",
+      "bytes": 32674,
+      "sha256": "750b59f8300ff13d45a36334453972e3e7a124b9acfd145b5e926115378b876b"
+    },
+    {
+      "path": "manuscript/sn-jnl.cls",
+      "bytes": 55857,
+      "sha256": "36d0c3273a59d48dc6a9c7b080dfa1ec50dc10229d8751568d1f2e490ffa5ecc"
+    },
+    {
+      "path": "manuscript/sn-mathphys-num.bst",
+      "bytes": 64164,
+      "sha256": "b3a7c7fbcc1e7f9619de634fcea2f5bb7a245818a5942bc576e40ea001633332"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8120,
+      "sha256": "c82f7853994e24b60a4def61267a26e30877100717c95203cef8cd4158fa5efb"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 44,
+      "sha256": "588d30b23045d9d0327fabff6470e4f41f082f63c603294c9151f97f2a2a0d05"
+    },
+    {
+      "path": "results/adaptive_network_summary.json",
+      "bytes": 115078,
+      "sha256": "d5dcb4f1fa1ebd83c9a89e10c200e27b9bca42b0a39627f4f1b9426705b7459a"
+    },
+    {
+      "path": "results/model_i_stress_summary.json",
+      "bytes": 24217,
+      "sha256": "b3b5284571ff63606981bdfedc5295c356fa39ccf1f9a89a6b934626bb8a0611"
+    },
+    {
+      "path": "results/power_analysis_summary.json",
+      "bytes": 15752,
+      "sha256": "eaba07e41af87631fde05c0600460d42090c0ee491640030a96441c5b152d5e3"
+    },
+    {
+      "path": "results/summary.json",
+      "bytes": 2826,
+      "sha256": "63afe757420008e82d3915d6fa5d7a4f886818a27829a7e17e4c2edccc7240dd"
+    },
+    {
+      "path": "submission-jcn/Fig1.pdf",
+      "bytes": 42707,
+      "sha256": "59a91542a947dbfafd2f75f06caef54f08bcf9c651408f0798728f7c061df7ff"
+    },
+    {
+      "path": "submission-jcn/Fig2.pdf",
+      "bytes": 43391,
+      "sha256": "db979edb1a88ef5e01c2dd7aaedcb859df1db5071c096d9c7e4587a94de6df97"
+    },
+    {
+      "path": "submission-jcn/Fig3.pdf",
+      "bytes": 44666,
+      "sha256": "199559d11c51de40d2dd048903a701d5d4dfce93f20aa8531d9679d309cd45d3"
+    },
+    {
+      "path": "submission-jcn/Fig4.pdf",
+      "bytes": 44182,
+      "sha256": "e6c70bfac4a8eb12174f35a8ebe9600b13376a7e550e64feb95e616cea03e486"
+    },
+    {
+      "path": "submission-jcn/Fig5.pdf",
+      "bytes": 44150,
+      "sha256": "14c15cb3b72750a6ab413c4399159a1b1edb471cf56f3e1e6a37e0c03e767b8f"
+    },
+    {
+      "path": "submission-jcn/Fig6.pdf",
+      "bytes": 134318,
+      "sha256": "a48fa2c50f1ca0b9bdf3dee99efe2ab71035cf95c3ecea6109109c3a4c0fcef9"
+    },
+    {
+      "path": "submission-jcn/Fig7.pdf",
+      "bytes": 43946,
+      "sha256": "0fccfc88efc65977cad33a76cf778a871b508095ab89ea38ffd78570884871fa"
+    },
+    {
+      "path": "submission-jcn/Fig8.pdf",
+      "bytes": 43175,
+      "sha256": "b98c51413eb700ac302ae62194d13b41687c83e11102ee71d8dea8b6c2f95966"
+    },
+    {
+      "path": "submission-jcn/Fig9.pdf",
+      "bytes": 46385,
+      "sha256": "31830c12d29aaaa85b8529ef0c570b72d10fde094a459020322076c67155e15f"
+    },
+    {
+      "path": "submission-jcn/references.bib",
+      "bytes": 46468,
+      "sha256": "ef836075f8338be3b10fafef992ddcc5ac8bebfbc99424abf081dea90b721dc1"
+    },
+    {
+      "path": "submission-jcn/submission.pdf",
+      "bytes": 1239138,
+      "sha256": "a09ffc88f50832a52c0969a16758c158ce803803c9214df4c65482d002275aa1"
+    },
+    {
+      "path": "submission-jcn/submission.tex",
+      "bytes": 168810,
+      "sha256": "f6e0ca7d16d77858f50b97c381e312c1d40a9d01e1417eded54d6d7c7846ff8f"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+n_clusters,heterogeneity_amplitude,finite_population_average_effect,sharp_null,shape,cluster_random_intercept_variance_share,serial_rho,attrition,leakage,rejection_rate,mcse
+256,0.4,0.0,False,broad_hump,0.1,0.5,0.0,0.0,0.049,0.006826346021115542
+256,0.8,0.0,False,broad_hump,0.1,0.5,0.0,0.0,0.035,0.005811626278418116
+256,1.2,0.0,False,broad_hump,0.1,0.5,0.0,0.0,0.037,0.005969170796685248

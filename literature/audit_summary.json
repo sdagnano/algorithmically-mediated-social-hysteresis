@@ -1,0 +1,31 @@
+{
+  "selection_date": "2026-08-26",
+  "selected_records": 107,
+  "doi_resolution_rate": 1.0,
+  "registry_resolution": {
+    "Crossref": 100,
+    "DataCite": 7
+  },
+  "metadata_audit": {
+    "bibliographic_metadata_fields_corrected": 19,
+    "existing_records_affected": 15,
+    "conceptual_repositionings": 1,
+    "corpus_additions": 20,
+    "documented_actions_total": 40,
+    "unresolved_dois": 0,
+    "duplicate_identities": 0,
+    "wrong_doi_title_matches": 0,
+    "omitted_authors": 0
+  },
+  "streams": {
+    "social-hysteresis": 21,
+    "platform-evidence": 19,
+    "recommender-feedback": 18,
+    "adaptive-networks": 16,
+    "algorithmic-opinion": 15,
+    "causal-design": 9,
+    "review": 9
+  },
+  "method": "Nine broad OpenAlex queries plus backward chaining from ten anchors, followed by targeted closest-predecessor, adaptive-network hysteresis, closed-loop control, and randomization-inference updates; final inclusion by direct relevance.",
+  "scope_note": "Structured saturation search, not a PRISMA systematic review and not a claim of literal exhaustiveness."
+}

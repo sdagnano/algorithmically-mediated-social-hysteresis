@@ -1,0 +1,11 @@
+regime,classification,max_stable_equilibria,multistable_alpha_min,multistable_alpha_max,minimum_stable_spectral_gap,alpha_grid_points,root_grid_points,audit_alpha_grid_points,audit_root_grid_points
+"fast-subsystem monostable, no memory",full-system monostable on the equilibrium/stability grid,1,,,0.0007525461009209195,201,10001,201,10001
+fast-subsystem monostable + slow memory,full-system multistable on the equilibrium/stability grid,2,0.295,0.465,0.00023523773980596395,201,10001,201,10001
+near-critical fast subsystem + memory,full-system multistable on the equilibrium/stability grid,2,0.20500000000000002,0.45,0.00022508106162706545,201,10001,201,10001
+"bistable, no memory",full-system multistable on the equilibrium/stability grid,2,0.65,0.665,0.0007525549961780461,201,10001,201,10001
+bistable + memory,full-system multistable on the equilibrium/stability grid,2,0.155,0.44,0.00030634243166272496,201,10001,201,10001
+"fast-subsystem monostable, no memory",full-system monostable on the equilibrium/stability grid,1,,,0.0007525461009209195,401,20001,401,20001
+fast-subsystem monostable + slow memory,full-system multistable on the equilibrium/stability grid,2,0.2925,0.4675,8.264094616812644e-05,401,20001,401,20001
+near-critical fast subsystem + memory,full-system multistable on the equilibrium/stability grid,2,0.2025,0.45,0.00022508106162706545,401,20001,401,20001
+"bistable, no memory",full-system multistable on the equilibrium/stability grid,2,0.65,0.6675,0.0007525549961780461,401,20001,401,20001
+bistable + memory,full-system multistable on the equilibrium/stability grid,2,0.1525,0.4425,0.0002149356523079447,401,20001,401,20001

@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "checks": {
+    "bibliography": {
+      "records": 107,
+      "citation_closure": true
+    },
+    "figures": {
+      "expected": 9,
+      "present": 9
+    },
+    "model_i": {
+      "grid_refinement_consistent": true,
+      "max_solver_state_difference": 0.0008649091033293,
+      "reference_restore_state_deficit": 0.2775911970723243
+    },
+    "model_ii": {
+      "feasible_blocks": 30,
+      "drift_correlation": 0.9984418939999345,
+      "drift_mae": 0.017520833333333274
+    },
+    "power": {
+      "outer_datasets": 1000,
+      "reassignments": 499,
+      "type1_range": [
+        0.041,
+        0.056
+      ],
+      "max_mcse": 0.0158112618092295,
+      "heterogeneous_weak_null_rejection_range": [
+        0.035,
+        0.049
+      ]
+    },
+    "release_manifest": {
+      "files_verified": 80
+    }
+  }
+}
